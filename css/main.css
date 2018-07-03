@@ -116,13 +116,16 @@ textarea {
   font-size: 4em;
   letter-spacing: 0.2em;
   text-align: center;
+  text-transform: uppercase;
 }
 
 #app h2 {
   color: #ffffff;
-  font-family: 'Share Tech Mono', monospace;
-  font-size: 1.5em;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1em;
+  font-weight: 100;
   text-align: center;
+  text-transform: uppercase;
 }
 
 video#background {
