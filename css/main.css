@@ -102,7 +102,21 @@ textarea {
   src: url('../font/anurati.otf');
 }
 
+video#background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background: url('../img/poster.png') no-repeat;
+  background-size: cover;
+}
+
 #app {
+  align-items: center;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -115,6 +129,7 @@ textarea {
   font-family: 'Anurati', sans-serif;
   font-size: 4em;
   letter-spacing: 0.2em;
+  margin: 0 auto;
   text-align: center;
   text-transform: uppercase;
 }
@@ -124,21 +139,25 @@ textarea {
   font-family: 'Roboto Mono', monospace;
   font-size: 1em;
   font-weight: 100;
+  margin: 0 auto;
   text-align: center;
   text-transform: uppercase;
 }
 
-video#background {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  background: url('../img/poster.png') no-repeat;
-  background-size: cover;
+#app .social {
+  margin: 3em auto;
+}
+
+#app .social a {
+  color: #ffffff;
+  font-size: 2em;
+  margin-right: 2em;
+  text-decoration: none;
+}
+
+#app .social a:last-child {
+  margin-right: 0;
+  text-decoration: none;
 }
 
 /* ==========================================================================
